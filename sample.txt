@@ -1,0 +1,119 @@
+mkdir data
+mkdir data/raw
+mkdir data/processed
+
+mkdir src
+mkdir src/utils
+
+mkdir tests
+
+mkdir .github
+mkdir .github/workflows
+
+touch src/fetch_data.py
+touch src/transform_data.py
+touch src/analyze_data.py
+touch src/dashboard.py
+
+touch src/utils/helpers.py
+touch tests/test_fetch_data.py
+touch tests/test_transform_data.py
+touch tests/test_analyze_data.py
+
+touch requirements.txt
+touch README.md
+touch .env
+touch .gitignore
+touch .github/workflows/ci.yml
+
+
+
+
+
+youtube_data_analyzer/
+├── data/
+│   ├── raw/                   # Store raw YouTube API responses (JSON/CSV)
+│   └── processed/             # Store cleaned/processed data (CSV/Parquet)
+│
+├── notebooks/
+│   └── data_exploration.ipynb # For interactive analysis using Jupyter/VSCode Notebooks
+│
+├── src/
+│   ├── fetch_data.py          # Fetch YouTube data using YouTube Data API
+│   ├── transform_data.py      # Clean and prepare the data using PySpark
+│   ├── analyze_data.py        # Perform metrics, trends, and insights
+│   ├── dashboard.py           # Streamlit dashboard code for visualization
+│   ├── utils.py               # Helper methods for formatting, cleaning, etc.
+│   └── config.py              # Store API keys and global config
+│
+├── tests/
+│   ├── test_fetch_data.py
+│   ├── test_transform_data.py
+│   └── test_analyze_data.py
+│
+├── .github/
+│   └── workflows/
+│       └── ci.yml             # GitHub Actions CI workflow file
+│
+├── .env                       # Store your secrets (e.g. API key) – never push to GitHub!
+├── .gitignore                 # Ignore virtualenv, .env, etc.
+├── requirements.txt           # All dependencies listed here
+├── README.md                  # Documentation and project intro
+└── venv/                      # Your virtual environment folder
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+youtube_data_analyzer/
+│
+├── data/
+│   ├── raw/                   # Raw data from YouTube API
+│   └── processed/             # Cleaned/transformed data using PySpark
+│
+├── src/
+│   ├── fetch_data.py          # Fetch YouTube data using YouTube Data API
+│   ├── transform_data.py      # Process and clean data using PySpark
+│   ├── analyze_data.py        # Perform analysis (top views, trends, etc.)
+│   ├── dashboard.py           # Streamlit dashboard to visualize analytics
+│   ├── utils.py               # Helper functions (date formatter, converters, etc.)
+│   └── config.py              # API keys and configurable constants
+│
+├── notebooks/
+│   └── data_exploration.ipynb # Jupyter notebook to explore/test the data
+│
+├── tests/
+│   └── test_api_fetch.py      # Unit tests for API fetch
+│   └── test_transform.py      # Unit tests for data processing
+│
+├── requirements.txt           # All necessary libraries
+├── .gitignore                 # Ignore API keys, temp files, etc.
+├── README.md                  # Full project documentation
+├── ci.yml                     # GitHub Actions workflow for automated testing
+└── LICENSE                    # Open source license (MIT recommended)

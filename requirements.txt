@@ -1,0 +1,11 @@
+pyspark==3.4.0
+streamlit==1.25.0
+google-api-python-client==2.88.0
+pandas==2.2.1
+numpy==1.26.4
+python-dotenv==1.0.0
+requests==2.31.0
+matplotlib==3.7.2
+seaborn==0.12.2
+pytest==7.4.0
+plotly==5.15.0

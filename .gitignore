@@ -1,0 +1,32 @@
+# Environment variables and secrets
+.env
+
+# Virtual environment
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Data files (optionally ignore raw data)
+data/raw/*.json
+data/processed/*.csv
+data/processed/*.parquet
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints
+
+# IDE files
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
